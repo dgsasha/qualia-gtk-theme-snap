@@ -1,11 +1,11 @@
-name: dg-adw-gtk3-theme
+name: qualia-gtk-theme
 version: '1.0'
 architectures:
   - build-on: amd64
     run-on: all
-summary: dg-adw-gtk3 theme
+summary: qualia GTK theme
 description: |
-  A Libadwaita + macOS + Yaru GTK3 theme.
+  A Yaru and Libadwaita inspired theme designed to provide a consistent experience on GTK desktops.
 build-base: core20
 base: bare
 compression: lzo
@@ -18,71 +18,71 @@ slots:
     interface: content
     source:
       read:
-        - $SNAP/share/themes/dg-adw-gtk3-orange
-        - $SNAP/share/themes/dg-adw-gtk3-bark
-        - $SNAP/share/themes/dg-adw-gtk3-lightblue
-        - $SNAP/share/themes/dg-adw-gtk3-blue
-        - $SNAP/share/themes/dg-adw-gtk3-magenta
-        - $SNAP/share/themes/dg-adw-gtk3-olive
-        - $SNAP/share/themes/dg-adw-gtk3-prussiangreen
-        - $SNAP/share/themes/dg-adw-gtk3-purple
-        - $SNAP/share/themes/dg-adw-gtk3-pink
-        - $SNAP/share/themes/dg-adw-gtk3-red
-        - $SNAP/share/themes/dg-adw-gtk3-sage
-        - $SNAP/share/themes/dg-adw-gtk3-viridian
-        - $SNAP/share/themes/dg-adw-gtk3-orange-dark
-        - $SNAP/share/themes/dg-adw-gtk3-bark-dark
-        - $SNAP/share/themes/dg-adw-gtk3-lightblue-dark
-        - $SNAP/share/themes/dg-adw-gtk3-blue-dark
-        - $SNAP/share/themes/dg-adw-gtk3-magenta-dark
-        - $SNAP/share/themes/dg-adw-gtk3-olive-dark
-        - $SNAP/share/themes/dg-adw-gtk3-prussiangreen-dark
-        - $SNAP/share/themes/dg-adw-gtk3-purple-dark
-        - $SNAP/share/themes/dg-adw-gtk3-pink-dark
-        - $SNAP/share/themes/dg-adw-gtk3-red-dark
-        - $SNAP/share/themes/dg-adw-gtk3-sage-dark
-        - $SNAP/share/themes/dg-adw-gtk3-viridian-dark
+        - $SNAP/share/themes/qualia
+        - $SNAP/share/themes/qualia-bark
+        - $SNAP/share/themes/qualia-lightblue
+        - $SNAP/share/themes/qualia-blue
+        - $SNAP/share/themes/qualia-magenta
+        - $SNAP/share/themes/qualia-olive
+        - $SNAP/share/themes/qualia-prussiangreen
+        - $SNAP/share/themes/qualia-purple
+        - $SNAP/share/themes/qualia-pink
+        - $SNAP/share/themes/qualia-red
+        - $SNAP/share/themes/qualia-sage
+        - $SNAP/share/themes/qualia-viridian
+        - $SNAP/share/themes/qualia-dark
+        - $SNAP/share/themes/qualia-bark-dark
+        - $SNAP/share/themes/qualia-lightblue-dark
+        - $SNAP/share/themes/qualia-blue-dark
+        - $SNAP/share/themes/qualia-magenta-dark
+        - $SNAP/share/themes/qualia-olive-dark
+        - $SNAP/share/themes/qualia-prussiangreen-dark
+        - $SNAP/share/themes/qualia-purple-dark
+        - $SNAP/share/themes/qualia-pink-dark
+        - $SNAP/share/themes/qualia-red-dark
+        - $SNAP/share/themes/qualia-sage-dark
+        - $SNAP/share/themes/qualia-viridian-dark
   icon-themes:
     interface: content
     source:
       read:
-        - $SNAP/share/icons/dg-yaru
-        - $SNAP/share/icons/dg-yaru-bark
-        - $SNAP/share/icons/dg-yaru-lightblue
-        - $SNAP/share/icons/dg-yaru-blue
-        - $SNAP/share/icons/dg-yaru-magenta
-        - $SNAP/share/icons/dg-yaru-olive
-        - $SNAP/share/icons/dg-yaru-prussiangreen
-        - $SNAP/share/icons/dg-yaru-purple
-        - $SNAP/share/icons/dg-yaru-pink
-        - $SNAP/share/icons/dg-yaru-red
-        - $SNAP/share/icons/dg-yaru-sage
-        - $SNAP/share/icons/dg-yaru-viridian
-        - $SNAP/share/icons/dg-yaru-dark
-        - $SNAP/share/icons/dg-yaru-bark-dark
-        - $SNAP/share/icons/dg-yaru-blue-dark
-        - $SNAP/share/icons/dg-yaru-lightblue-dark
-        - $SNAP/share/icons/dg-yaru-magenta-dark
-        - $SNAP/share/icons/dg-yaru-olive-dark
-        - $SNAP/share/icons/dg-yaru-prussiangreen-dark
-        - $SNAP/share/icons/dg-yaru-purple-dark
-        - $SNAP/share/icons/dg-yaru-pink-dark
-        - $SNAP/share/icons/dg-yaru-red-dark
-        - $SNAP/share/icons/dg-yaru-sage-dark
-        - $SNAP/share/icons/dg-yaru-viridian-dark
+        - $SNAP/share/icons/qualia
+        - $SNAP/share/icons/qualia-bark
+        - $SNAP/share/icons/qualia-lightblue
+        - $SNAP/share/icons/qualia-blue
+        - $SNAP/share/icons/qualia-magenta
+        - $SNAP/share/icons/qualia-olive
+        - $SNAP/share/icons/qualia-prussiangreen
+        - $SNAP/share/icons/qualia-purple
+        - $SNAP/share/icons/qualia-pink
+        - $SNAP/share/icons/qualia-red
+        - $SNAP/share/icons/qualia-sage
+        - $SNAP/share/icons/qualia-viridian
+        - $SNAP/share/icons/qualia-dark
+        - $SNAP/share/icons/qualia-bark-dark
+        - $SNAP/share/icons/qualia-blue-dark
+        - $SNAP/share/icons/qualia-lightblue-dark
+        - $SNAP/share/icons/qualia-magenta-dark
+        - $SNAP/share/icons/qualia-olive-dark
+        - $SNAP/share/icons/qualia-prussiangreen-dark
+        - $SNAP/share/icons/qualia-purple-dark
+        - $SNAP/share/icons/qualia-pink-dark
+        - $SNAP/share/icons/qualia-red-dark
+        - $SNAP/share/icons/qualia-sage-dark
+        - $SNAP/share/icons/qualia-viridian-dark
   sound-themes:
     interface: content
     source:
       read:
-        - $SNAP/share/sounds/dg-yaru
+        - $SNAP/share/sounds/qualia
 
 parts:
   # dg-adw-gtk3
   dg-adw-gtk3:
     after: [utils]
-    source: https://github.com/dgmarie/dg-adw-gtk3.git
+    source: https://github.com/dgsasha/dg-adw-gtk3.git
     source-depth: 1
-    source-commit: 0327a845679a0d0425c81e1dc87a1d42fa215a40
+    source-commit: 9734fa53a45123ac9797991544a3b8f8e2e71288
     plugin: meson
     meson-parameters:
       - --prefix=/
@@ -99,13 +99,15 @@ parts:
   # dg-yaru
   dg-yaru:
     after: [utils]
-    source: https://github.com/dgmarie/dg-yaru.git
+    source: https://github.com/dgsasha/dg-yaru.git
     source-depth: 1
-    source-commit: b2865a6f07d716302edc64b17cec9f3867ff3b77
+    source-commit: 9623e89e68aad7d74010faac23029c35615e6152
     plugin: meson
     meson-parameters:
       - --prefix=/
       - -Dgnome-shell=false
+      - -Dpanel-icons=false
+      
     override-build: |
       snapcraftctl build
       snapcraftctl set-version "$(git describe --tags 2>/dev/null || echo 1.0)"
