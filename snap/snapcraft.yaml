@@ -82,7 +82,7 @@ parts:
     after: [utils]
     source: https://github.com/dgsasha/dg-adw-gtk3.git
     source-depth: 1
-    source-commit: 4e36992707520748dfcd31f011afd9bce5ec5ae9
+    source-commit: daed55a04b341239a7c1f9290d1335429c53dd1b
     plugin: meson
     meson-parameters:
       - --prefix=/
@@ -101,7 +101,7 @@ parts:
     after: [utils]
     source: https://github.com/dgsasha/dg-yaru.git
     source-depth: 1
-    source-commit: 8658506f4ebf94622444bb3a0b52bcdf871438cb
+    source-commit: 0b7fedfc4c03e9d907f3ab4bec9900659cf43298
     plugin: meson
     meson-parameters:
       - --prefix=/
