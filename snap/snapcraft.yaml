@@ -18,30 +18,54 @@ slots:
     interface: content
     source:
       read:
-        - $SNAP/share/themes/qualia
-        - $SNAP/share/themes/qualia-bark
-        - $SNAP/share/themes/qualia-lightblue
-        - $SNAP/share/themes/qualia-blue
-        - $SNAP/share/themes/qualia-magenta
-        - $SNAP/share/themes/qualia-olive
-        - $SNAP/share/themes/qualia-prussiangreen
-        - $SNAP/share/themes/qualia-purple
-        - $SNAP/share/themes/qualia-pink
-        - $SNAP/share/themes/qualia-red
-        - $SNAP/share/themes/qualia-sage
-        - $SNAP/share/themes/qualia-viridian
-        - $SNAP/share/themes/qualia-dark
-        - $SNAP/share/themes/qualia-bark-dark
-        - $SNAP/share/themes/qualia-lightblue-dark
-        - $SNAP/share/themes/qualia-blue-dark
-        - $SNAP/share/themes/qualia-magenta-dark
-        - $SNAP/share/themes/qualia-olive-dark
-        - $SNAP/share/themes/qualia-prussiangreen-dark
-        - $SNAP/share/themes/qualia-purple-dark
-        - $SNAP/share/themes/qualia-pink-dark
-        - $SNAP/share/themes/qualia-red-dark
-        - $SNAP/share/themes/qualia-sage-dark
-        - $SNAP/share/themes/qualia-viridian-dark
+        - $SNAP/share/themes/qualia-macos
+        - $SNAP/share/themes/qualia-bark-macos
+        - $SNAP/share/themes/qualia-lightblue-macos
+        - $SNAP/share/themes/qualia-blue-macos
+        - $SNAP/share/themes/qualia-magenta-macos
+        - $SNAP/share/themes/qualia-olive-macos
+        - $SNAP/share/themes/qualia-prussiangreen-macos
+        - $SNAP/share/themes/qualia-purple-macos
+        - $SNAP/share/themes/qualia-pink-macos
+        - $SNAP/share/themes/qualia-red-macos
+        - $SNAP/share/themes/qualia-sage-macos
+        - $SNAP/share/themes/qualia-viridian-macos
+        - $SNAP/share/themes/qualia-dark-macos
+        - $SNAP/share/themes/qualia-bark-dark-macos
+        - $SNAP/share/themes/qualia-lightblue-dark-macos
+        - $SNAP/share/themes/qualia-blue-dark-macos
+        - $SNAP/share/themes/qualia-magenta-dark-macos
+        - $SNAP/share/themes/qualia-olive-dark-macos
+        - $SNAP/share/themes/qualia-prussiangreen-dark-macos
+        - $SNAP/share/themes/qualia-purple-dark-macos
+        - $SNAP/share/themes/qualia-pink-dark-macos
+        - $SNAP/share/themes/qualia-red-dark-macos
+        - $SNAP/share/themes/qualia-sage-dark-macos
+        - $SNAP/share/themes/qualia-viridian-dark-macos
+        - $SNAP/share/themes/qualia-symbolic
+        - $SNAP/share/themes/qualia-bark-symbolic
+        - $SNAP/share/themes/qualia-lightblue-symbolic
+        - $SNAP/share/themes/qualia-blue-symbolic
+        - $SNAP/share/themes/qualia-magenta-symbolic
+        - $SNAP/share/themes/qualia-olive-symbolic
+        - $SNAP/share/themes/qualia-prussiangreen-symbolic
+        - $SNAP/share/themes/qualia-purple-symbolic
+        - $SNAP/share/themes/qualia-pink-symbolic
+        - $SNAP/share/themes/qualia-red-symbolic
+        - $SNAP/share/themes/qualia-sage-symbolic
+        - $SNAP/share/themes/qualia-viridian-symbolic
+        - $SNAP/share/themes/qualia-dark-symbolic
+        - $SNAP/share/themes/qualia-bark-dark-symbolic
+        - $SNAP/share/themes/qualia-lightblue-dark-symbolic
+        - $SNAP/share/themes/qualia-blue-dark-symbolic
+        - $SNAP/share/themes/qualia-magenta-dark-symbolic
+        - $SNAP/share/themes/qualia-olive-dark-symbolic
+        - $SNAP/share/themes/qualia-prussiangreen-dark-symbolic
+        - $SNAP/share/themes/qualia-purple-dark-symbolic
+        - $SNAP/share/themes/qualia-pink-dark-symbolic
+        - $SNAP/share/themes/qualia-red-dark-symbolic
+        - $SNAP/share/themes/qualia-sage-dark-symbolic
+        - $SNAP/share/themes/qualia-viridian-dark-symbolic
   icon-themes:
     interface: content
     source:
@@ -82,7 +106,7 @@ parts:
     after: [utils]
     source: https://github.com/dgsasha/dg-adw-gtk3.git
     source-depth: 1
-    source-commit: 3c072a3ca41eeb0a86a0ba23b9bc20a7f5bfdcc8
+    source-commit: 3a330badb8af9d04de400599820589f023c01ce6
     plugin: meson
     meson-parameters:
       - --prefix=/
@@ -101,7 +125,7 @@ parts:
     after: [utils]
     source: https://github.com/dgsasha/dg-yaru.git
     source-depth: 1
-    source-commit: f5712dec425ed34c0473733816051c1ecbf50490
+    source-commit: 1c097bc9a34f13f750f52b84f14b5c91ce214fdb
     plugin: meson
     meson-parameters:
       - --prefix=/
