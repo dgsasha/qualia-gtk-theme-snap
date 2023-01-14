@@ -125,7 +125,7 @@ parts:
     after: [utils]
     source: https://github.com/dgsasha/dg-yaru.git
     source-depth: 1
-    source-commit: 5c781db16ab944c5dd7d561ecf251ed65f94ea77
+    source-commit: 353d5206197cb5fd66e6742797cc67cb956656c8
     plugin: meson
     meson-parameters:
       - --prefix=/
